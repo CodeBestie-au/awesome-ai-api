@@ -116,3 +116,9 @@ api.daheiai.com:
   name: "大黑 API 导航"
   region: "cn"
   verdict: "directory"
+
+codebestie.org:
+  name: "CodeBestie"
+  region: "cn"
+  upstream: "unknown"
+  note: "Operator self-submission. Website/console: https://app.codebestie.org/. API host: https://codebestie.org. Enterprise quotation and setup guides: gateways/codebestie.md. Official-upstream claims are operator-reported and unverified."
