@@ -2,7 +2,7 @@
 
 > AI API relay for developers using Claude Code, Codex, and other model clients.
 
-**[Official Website](https://app.codebestie.org/)** · **[Console Pricing](https://app.codebestie.org/models)** · **[Docs](https://docs.codebestie.org/docs/codebestie-guide)** · **[Earlier Enterprise Quotation](assets/codebestie/enterprise-pricing.xlsx)**
+**[Official Website](https://app.codebestie.org/)** · **[Website Pricing](https://app.codebestie.org/models)** · **[Docs](https://docs.codebestie.org/docs/codebestie-guide)** · **[Enterprise Reference Quotation](assets/codebestie/enterprise-pricing.xlsx)**
 
 ## Quick Facts | 基本信息
 
@@ -21,7 +21,7 @@
 
 ## Pricing | 定价
 
-The [console model pricing page](https://app.codebestie.org/models) requires sign-in. The current tables below use the console pricing text supplied by the operator on **2026-09-16**, covering 10 product groups. They supersede the earlier enterprise workbook where the sources differ. Account-specific availability, subscriptions, and current console settings may vary.
+The source for the tables below is the [CodeBestie official model pricing page](https://app.codebestie.org/models), covering 10 product groups. The page requires sign-in, so the operator provided its text on **2026-09-16** for transcription. The attached enterprise workbook is a separate customer reference quotation. Account-specific availability, subscriptions, and current console settings may vary.
 
 All table amounts are **displayed USD per 1M tokens**. Every listed model is billed by token, with no per-request price shown. Rates already include each group's stated effective multiplier; do not multiply them again. `—` preserves an unspecified price, while `0.00` preserves an explicit zero. These displayed prices and model identifiers are operator-reported, not independently verified official-provider rates. The earlier quotation states “官方参考价为USD，我们实际收1CNY=1USD”; values below retain the console's dollar denomination without an inferred currency conversion.
 
@@ -121,9 +121,9 @@ Effective multiplier: **1.3×**.
 
 The supplied text marks Claude Fable 5.1's reference pricing as checked on **2026-09-08**. For `claude-fable-5-1`, the row is the ordinary-request base tier, and cache write is for **5 minutes**; **1-hour cache write costs 26.00 per 1M tokens**. Tool calls and other service tiers are charged separately, with actual charges shown in usage details. This cache-duration note applies specifically to `claude-fable-5-1`.
 
-### Earlier enterprise quotation | 历史企业报价
+### Enterprise reference quotation | 企业客户参考报价
 
-The operator-authorized [original enterprise workbook](assets/codebestie/enterprise-pricing.xlsx) is retained unchanged as an earlier reference quotation, not the current price list or a final settlement document. It contains 36 records and cites the previous `https://codebestie.org/model-plaza` address. Its Grok cache prices and DeepSeek afternoon 1.97× detail differ from the latest supplied text, and it lacks GPT-6-Astra, Claude Fable 5.1, and the trial/subscription tables above. The latest operator-supplied text takes precedence for this entry; old context-tier prices are not presented as current rates.
+The operator-authorized [enterprise workbook](assets/codebestie/enterprise-pricing.xlsx) is a customer-facing reference quotation, not a contract or final settlement document. It is retained unchanged and contains 36 records, citing `https://codebestie.org/model-plaza`. Its Grok cache prices and DeepSeek afternoon 1.97× detail differ from the supplied website text, and it does not list GPT-6-Astra, Claude Fable 5.1, or the trial/subscription groups above. This entry uses the website page for the displayed group prices and links the enterprise quotation separately. Differences between these two sources do not establish that the enterprise quotation has expired; applicable enterprise terms should be confirmed for the customer's account.
 
 ### Other operator-reported offers | 其他运营方说明
 
@@ -168,7 +168,7 @@ The operator describes the service as using official upstream connections for th
 
 **Pros | 优势**
 
-- Current operator-supplied per-model prices are transcribed here, with the earlier enterprise quotation retained for reference.
+- CodeBestie's website model prices are transcribed here, with a separate enterprise customer reference quotation.
 - Chinese-language configuration guides for Claude Code and Codex.
 - Alipay and enterprise billing options, according to the operator.
 
@@ -193,6 +193,6 @@ No independent user reviews supplied.
 ## Changelog | 更新日志
 
 - `2026-09-16` — Initial operator-submitted entry, authorized enterprise quotation, and unauthenticated endpoint check.
-- `2026-09-16` — Refresh pricing from operator-supplied console text, add GPT-6-Astra and Claude Fable 5.1, correct Grok cache pricing, and document four trial/subscription groups. Mark the original workbook as historical.
+- `2026-09-16` — Refresh pricing from CodeBestie's official model pricing page using text provided by the operator. Add GPT-6-Astra, Claude Fable 5.1, updated Grok cache prices, and four trial/subscription groups; distinguish the enterprise reference quotation.
 
 **Conflict of interest disclosure | 利益相关声明:** Submitted by the CodeBestie operator. Pricing and service claims are operator-supplied unless a separate verification method is identified above.

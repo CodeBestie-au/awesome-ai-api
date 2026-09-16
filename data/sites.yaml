@@ -121,4 +121,4 @@ codebestie.org:
   name: "CodeBestie"
   region: "cn"
   upstream: "unknown"
-  note: "Operator self-submission. Website/console: https://app.codebestie.org/. API host: https://codebestie.org. Operator-supplied pricing and setup guides: gateways/codebestie.md. Official-upstream claims are operator-reported and unverified."
+  note: "Operator self-submission. Website/console: https://app.codebestie.org/. API host: https://codebestie.org. Website pricing transcription, enterprise reference quotation, and setup guides: gateways/codebestie.md. Official-upstream claims are operator-reported and unverified."
